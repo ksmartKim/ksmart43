@@ -45,7 +45,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 					response.sendRedirect("/");
 					return false;
 					}
-				}else {
+				}/*else {
 					if(requestURI.indexOf("/member/memberList")    > -1 ||
 					   requestURI.indexOf("/member/memberInfoList") > -1 ||
 					   requestURI.indexOf("/member/modifyMember")    > -1 ||
@@ -55,7 +55,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 						response.sendRedirect("/");
 						return false;
 					}
-				}
+				}*/
 				
 			}
 			
